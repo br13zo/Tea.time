@@ -18,6 +18,10 @@ header {
     height: 69px;
     position: fixed;
     border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    align-items: center;
 }
 
 .flex-container {
@@ -26,22 +30,29 @@ header {
     flex-wrap: wrap;
 }
 
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
 nav span {
     text-decoration: underline;
 }
 
-a {
+nav a {
     color: seashell;
+    padding: 0px 10px;
+    text-align: center;
 }
 
 #mission {
+    width: 95%;
     height: 700px;
     background-image: url(../images/mission-background.jpg);
 }
 
 .content h4 h2 {
     width: 1200px;
-    text-align: center;
-    background-color: black;
-    height: 69px;
+    align-items: center;
 }
