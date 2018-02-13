@@ -8,7 +8,6 @@ body {
 }
 
 header img {
-    justify-items: left;
     padding-left: 10px;
     height: 50px;
 }
@@ -17,6 +16,7 @@ header {
     display: flex;
     z-index: 1;
     height: 69px;
+    position: fixed;
     border-bottom: 1px solid seashell;
 }
 
@@ -32,4 +32,14 @@ nav span {
 
 a {
     color: seashell;
+}
+
+#mission {
+    height: 700px;
+    background-image: url(../images/mission-background.jpg);
+}
+
+#mission .content {
+    width: 1200px;
+    text-align: center;
 }
