@@ -39,7 +39,9 @@ a {
     background-image: url(../images/mission-background.jpg);
 }
 
-#mission .content {
+.content h4 h2 {
     width: 1200px;
     text-align: center;
+    background-color: black;
+    height: 69px;
 }
