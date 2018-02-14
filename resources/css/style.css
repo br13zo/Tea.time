@@ -6,6 +6,7 @@ body {
     opacity: 0.9;
     text-align: center;
     margin: 0px;
+    font-weight: bold;
 }
 
 header img {
@@ -41,6 +42,7 @@ nav {
 
 nav span {
     text-decoration: underline;
+    font-weight: normal;
 }
 
 nav a {
@@ -70,6 +72,9 @@ nav a {
     align-items: center;
     background-color: black;
     margin: auto;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
 }
 
 #store {
@@ -86,18 +91,24 @@ nav a {
     margin: 10px;
 }
 
-h2 h3 h4 {
-    margin: 0px;
+h3,
+h4 {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 h2 {
     display: block;
     font-weight: bold;
-    padding: 10px;
 }
 
 h5 {
     font-weight: bold;
+}
+
+div h2 {
+    margin-top: 20px;
 }
 
 #locations .flex-container {
@@ -109,18 +120,22 @@ h5 {
     background-image: url(../images/locations-background.jpg);
     height: 500px;
     margin: auto;
+    background-position: center
 }
 
 .location {
     width: 300px;
     background-color: black;
-    margin: 5px 20px;
+    margin: 20px 20px;
     opacity: 1;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 280px;
+}
+
+.location p {
+    margin: 20px;
 }
 
 #contact {
